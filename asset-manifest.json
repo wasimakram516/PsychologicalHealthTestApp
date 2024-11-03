@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/PsychologicalHealthTestApp/static/css/main.abc1ab72.css",
+    "main.js": "/PsychologicalHealthTestApp/static/js/main.438a8397.js",
+    "static/js/453.bc20330e.chunk.js": "/PsychologicalHealthTestApp/static/js/453.bc20330e.chunk.js",
+    "static/media/Team Members.webp": "/PsychologicalHealthTestApp/static/media/Team Members.560b06dc4a264651abb1.webp",
+    "static/media/Background.webp": "/PsychologicalHealthTestApp/static/media/Background.f321caabc7d94ac1a694.webp",
+    "index.html": "/PsychologicalHealthTestApp/index.html",
+    "main.abc1ab72.css.map": "/PsychologicalHealthTestApp/static/css/main.abc1ab72.css.map",
+    "main.438a8397.js.map": "/PsychologicalHealthTestApp/static/js/main.438a8397.js.map",
+    "453.bc20330e.chunk.js.map": "/PsychologicalHealthTestApp/static/js/453.bc20330e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abc1ab72.css",
+    "static/js/main.438a8397.js"
+  ]
+}
