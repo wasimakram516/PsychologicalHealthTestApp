@@ -1,38 +1,51 @@
-.App {
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.start-screen {
+  position: relative;
+  background-image: url('../src/assets/Intro/Background.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.quiz-screen {
+  width: 100%;
+  background-image: url('../src/assets/QuestionAnswerSection/Background.webp');
+  min-height: 100vh; /* Ensures it takes the full viewport height */
+  height: auto;      /* Allows it to grow with the content */
+  background-attachment: fixed;
+  background-size: cover; /* Ensures the background covers the whole area */
+  background-position: center; /* Center the background image */
+}
+
+.game-title {
+  position: absolute;
+  top: 40%; /* Adjusted for better centering */
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  z-index: 10;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px; /* Adjusted padding for balanced spacing */
+  border-radius: 20px;
+  width: 80%; /* Optional: Limit width for mobile screens */
+  height: auto;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.start-button img {
+  width: 200px;
+  /* Adjust the width of the start button image */
 }
