@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/PsychologicalHealthTestApp/static/css/main.3f0c8a32.css",
+    "main.css": "/PsychologicalHealthTestApp/static/css/main.fe8dcde7.css",
     "main.js": "/PsychologicalHealthTestApp/static/js/main.b7ec28cb.js",
     "static/js/453.bc20330e.chunk.js": "/PsychologicalHealthTestApp/static/js/453.bc20330e.chunk.js",
     "static/media/Team Members.webp": "/PsychologicalHealthTestApp/static/media/Team Members.560b06dc4a264651abb1.webp",
     "static/media/Background.webp": "/PsychologicalHealthTestApp/static/media/Background.72483f08fd375e13aaf4.webp",
     "index.html": "/PsychologicalHealthTestApp/index.html",
-    "main.3f0c8a32.css.map": "/PsychologicalHealthTestApp/static/css/main.3f0c8a32.css.map",
+    "main.fe8dcde7.css.map": "/PsychologicalHealthTestApp/static/css/main.fe8dcde7.css.map",
     "main.b7ec28cb.js.map": "/PsychologicalHealthTestApp/static/js/main.b7ec28cb.js.map",
     "453.bc20330e.chunk.js.map": "/PsychologicalHealthTestApp/static/js/453.bc20330e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f0c8a32.css",
+    "static/css/main.fe8dcde7.css",
     "static/js/main.b7ec28cb.js"
   ]
 }
