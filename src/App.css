@@ -38,7 +38,7 @@ body {
   transform: translate(-50%, -50%); 
   z-index: 10;
   text-align: center;
-  color: white;
+  color: #0093B4;
   padding: 20px; /* Adjusted padding for balanced spacing */
   border-radius: 20px;
   width: 80%; /* Optional: Limit width for mobile screens */
