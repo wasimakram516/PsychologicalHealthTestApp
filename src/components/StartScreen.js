@@ -22,22 +22,17 @@ function StartScreen({ startGame }) {
       </Typography>
 
       <Button
-        variant="outlined"
+        variant="contained"
+        color="primary"
         onClick={startGame}
         sx={{
           position: 'absolute',
           bottom: '20px',
           left: '20px',
-          
           padding: '10px 20px',
           fontWeight: 'bold',
           fontSize: '1.5rem',
-          backgroundColor: 'primary.light',
-          color: '#fff',
           borderRadius: '8px',
-          '&:hover': {
-            backgroundColor: 'primary.light',
-          },
         }}
       >
         بدء الاختبار

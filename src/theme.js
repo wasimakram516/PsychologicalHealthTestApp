@@ -4,11 +4,11 @@ const theme = createTheme({
   direction: "rtl", // Enable Right-to-Left text direction
   palette: {
     primary: {
-      main: "#394E29", // Sustainable Green
-      light: "#87B353", // OQGN Green
+      main: "#0093B4", 
+      light: "#A1C5FF",
     },
     secondary: {
-      main: "#F58220", // OQGN Orange
+      main: "#C99B2D",
     },
     success: {
       main: "#32CD32", // Lime Green for correct answers or success

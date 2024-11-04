@@ -37,28 +37,29 @@ function QuizScreen({ quizData, endGame, incrementScore, restartGame }) {
         position: "relative",
       }}
     >
-      {/* Restart Button - Fixed to the top-left corner */}
-      <Button
-        onClick={restartGame}
-        sx={{
-          position: "fixed",
-          top: "20px",
-          left: "20px",
-          fontSize: "20px", // Increased font size for visibility
-          backgroundColor: theme.palette.secondary.main,
-          color: "#FFFFFF",
-          padding: "12px 24px", // Increased padding for a larger button
-          borderRadius: "8px",
-          fontWeight: "bold",
-          zIndex: 1000,
-          "&:hover": {
-            backgroundColor: theme.palette.secondary.dark,
-          },
-        }}
-      >
-        إعادة
-        {/* "Restart" */}
-      </Button>
+      {/* Restart Button - Fixed to the top-right corner */}
+<Button
+  onClick={restartGame}
+  sx={{
+    position: "fixed",
+    top: "20px",
+    right: "20px", // Changed from left to right for top-right alignment
+    fontSize: "1.5rem", // Increased font size for visibility
+    backgroundColor: theme.palette.secondary.main,
+    color: "#FFFFFF",
+    padding: "12px 24px", // Increased padding for a larger button
+    borderRadius: "8px",
+    fontWeight: "bold",
+    zIndex: 1000,
+    "&:hover": {
+      backgroundColor: theme.palette.secondary.dark,
+    },
+  }}
+>
+  إعادة
+  {/* "Restart" */}
+</Button>
+
 
       {/* Display Question Number */}
       <Typography

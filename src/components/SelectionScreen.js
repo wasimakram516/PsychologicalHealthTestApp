@@ -56,18 +56,14 @@ function SelectionScreen({ startQuiz, goToTeam }) {
           <Grid item xs={12} sm={6}>
             <Button
               variant="contained"
+              color='primary'
               fullWidth
               onClick={startQuiz} // Go to quiz
               sx={{
-                backgroundColor: 'primary.main',
-                color: '#fff',
                 fontWeight: 'bold',
                 padding: '12px',
                 textTransform: 'none',
                 borderRadius: '8px',
-                '&:hover': {
-                  backgroundColor: 'primary.light',
-                },
               }}
             >
               <Typography variant='h6' sx={{ fontWeight: 'bold' }}>
@@ -80,17 +76,13 @@ function SelectionScreen({ startQuiz, goToTeam }) {
             <Button
               variant="contained"
               fullWidth
+              color='primary'
               onClick={goToTeam} // Go to team screen
               sx={{
-                backgroundColor: 'primary.main',
-                color: '#fff',
                 fontWeight: 'bold',
                 padding: '12px',
                 textTransform: 'none',
                 borderRadius: '8px',
-                '&:hover': {
-                  backgroundColor: 'primary.light',
-                },
               }}
             >
               <Typography variant='h6' sx={{ fontWeight: 'bold' }}>
